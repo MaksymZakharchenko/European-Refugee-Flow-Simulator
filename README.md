@@ -62,26 +62,3 @@ Bash
 streamlit run dashboard/app.py
 📊 Analytics & Validation Methodology
 In financial and risk analytics, models must not only perform well but also be fully transparent and validated. This platform incorporates standard statistical validation frameworks to test predictions against baseline historical datasets, minimizing black-box uncertainty through SHAP value attribution.
-
----
-
-### Jak wrzucić projekt na GitHub, żeby strona była publiczna? (Krok po kroku)
-
-1. **Stwórz publiczne repozytorium na GitHubie:**
-   * Wejdź na [github.com](https://github.com/) i zaloguj się.
-   * W prawym górnym rogu kliknij ikonę **`+`** -> **`New repository`**.
-   * Wpisz nazwę (np. `European-Refugee-Flow-Simulator`).
-   * Zaznacz opcję **Public** (dzięki temu repozytorium i kod będą widoczne dla rekruterów).
-   * **Nie zaznaczaj** opcji "Add a README file" (ponieważ stworzyliśmy go przed chwilą u siebie).
-   * Kliknij **`Create repository`**.
-
-2. **Wgraj swój kod przez terminal (w folderze głównym Twojego projektu):**
-   Otwórz terminal w folderze projektu i wpisz kolejno te komendy (podmień `TWOJ_LOGIN_GITHUB` na swój faktyczny login):
-
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: Add refugee flow simulator with ML, SHAP and Streamlit"
-   git branch -M main
-   git remote add origin https://github.com/TWOJ_LOGIN_GITHUB/European-Refugee-Flow-Simulator.git
-   git push -u origin main
