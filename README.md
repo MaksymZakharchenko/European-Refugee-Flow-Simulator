@@ -61,4 +61,3 @@ Run the Streamlit application:
 Bash
 streamlit run dashboard/app.py
 📊 Analytics & Validation Methodology
-In financial and risk analytics, models must not only perform well but also be fully transparent and validated. This platform incorporates standard statistical validation frameworks to test predictions against baseline historical datasets, minimizing black-box uncertainty through SHAP value attribution.
